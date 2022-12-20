@@ -2,7 +2,7 @@ body{
   margin: 0;
   padding: 0px;
 }
-.header-area .main-nav .nav {
+/* .header-area .main-nav .nav {
   display: inline-flex;
   flex-basis: 70%;
   justify-content: flex-end;
@@ -32,17 +32,18 @@ body{
 .header-area a:hover {
   border-radius: 18px;
   background-color: purple;
-}
+} */
 
 
 #carousel{
   margin: auto; /* 居中 */
-  width: 600px; /* 设置宽度 */
+  width: 100%; /* 设置宽度 */
   position: relative; /* 相对定位 */
   overflow: hidden; /* 超出隐藏 */
+  height: 800px;
 }
 #carousel img{
-  width: 600px; /* 设定大小 按比例缩放 */
+  width: auto; /* 设定大小 按比例缩放 */
 }
 #carousel > ul {
   display: flex; /* 图片处理为一行 */
